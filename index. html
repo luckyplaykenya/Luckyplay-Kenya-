@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuckyPlay Kenya</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #07130d;
+      color: white;
+    }
+
+    header {
+      background: #0b1f14;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #164b2d;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #20d66b;
+    }
+
+    .login {
+      background: #20d66b;
+      color: #06100a;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(180deg, #0c2919, #07130d);
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 18px;
+    }
+
+    .hero h1 span {
+      color: #20d66b;
+    }
+
+    .hero p {
+      color: #b9c9bf;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      margin: 6px;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .primary {
+      background: #20d66b;
+      color: #06100a;
+    }
+
+    .secondary {
+      border: 1px solid #20d66b;
+      color: #20d66b;
+    }
+
+    .section {
+      padding: 45px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #0d2116;
+      border: 1px solid #164b2d;
+      border-radius: 14px;
+      padding: 25px;
+    }
+
+    .card h3 {
+      color: #20d66b;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b9c9bf;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #0b1f14;
+      color: #8fa497;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🍀 LuckyPlay Kenya</div>
+    <button class="login">Login</button>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to <span>LuckyPlay Kenya</span></h1>
+
+    <p>
+      A mobile rewards and gaming platform designed for an exciting
+      entertainment experience in Kenya.
+    </p>
+
+    <div class="buttons">
+      <a href="#" class="btn
